@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Medicine Reminder</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="login_failed">Login Failed: </string>
+    <string name="invalid_email">Enter valid email</string>
+    <string name="invalid_password">Enter valid password</string>
+    <string name="points_display">⭐ Points: %1$d</string>
+    <string name="level_display">🏆 Level: %1$d</string>
+    <string name="error_medicine_name">Enter medicine name</string>
+    <string name="error_dosage">Enter dosage</string>
+    <string name="error_time">Enter time</string>
+    <string name="error_quantity">Enter quantity</string>
+    <string name="medicine_added">Medicine Added</string>
+    <string name="order_placed">Order placed (Demo)</string>
+    <string name="low_stock_warning">⚠️ Low stock: %1$s (Refill suggested)</string>
+    <string name="hint_medicine_name">Medicine Name</string>
+    <string name="hint_dosage">Dosage</string>
+    <string name="hint_time">Time</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="btn_save_medicine">Save Medicine</string>
+    <string name="hint_doctor_email">Enter Doctor Email</string>
+    <string name="btn_share_with_doctor">Share with Doctor</string>
+    <string name="btn_doctor_view_patients">Doctor View Patients</string>
+</resources>

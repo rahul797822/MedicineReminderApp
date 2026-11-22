@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vibrant Medical Theme -->
+    <color name="primary">#00796B</color> <!-- Teal 700 -->
+    <color name="primary_light">#48A999</color>
+    <color name="primary_dark">#004C40</color>
+
+    <color name="secondary">#0288D1</color> <!-- Light Blue 700 -->
+    <color name="secondary_light">#5EB5FC</color>
+
+    <color name="accent">#FF8F00</color> <!-- Amber 800 -->
+    <color name="background">#F0F4F4</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Health Status Colors -->
+    <color name="status_green">#43A047</color>
+    <color name="status_red">#E53935</color>
+    <color name="status_orange">#FB8C00</color>
+    <color name="error">#E53935</color>
+
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="onBackground">#263238</color>
+    <color name="onSurface">#263238</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_light">#E0E0E0</color>
+    <color name="grey_dark">#757575</color>
+
+    <!-- Gradients -->
+    <color name="grad_start">#00796B</color>
+    <color name="grad_end">#00BFA5</color>
+</resources>

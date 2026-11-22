@@ -1,0 +1,20 @@
+package com.example.medicinereminder.utils;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+public class FirebaseHelper {
+
+    private static FirebaseAuth auth;
+    private static FirebaseFirestore firestore;
+
+    public static FirebaseAuth getAuth() {
+        if (auth == null) auth = FirebaseAuth.getInstance();
+        return auth;
+    }
+
+    public static FirebaseFirestore getFirestore() {
+        if (firestore == null) firestore = FirebaseFirestore.getInstance();
+        return firestore;
+    }
+}

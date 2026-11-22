@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_my_calendar"
+            app:tint="@color/primary"
+            android:background="#F0F4F8"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/patientEmailTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="patient@example.com"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/onBackground" />
+
+            <TextView
+                android:id="@+id/patientStreakTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Streak: 5 Days"
+                android:textSize="13sp"
+                android:textColor="@color/accent" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/viewDetailsBtn"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
